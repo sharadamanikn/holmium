@@ -19,6 +19,19 @@ app.get('/generate', (c) => {
 })
 
 
+app.get('/college-details', (c) => {
+  return c.json({
+    name: 'Siddaganga Institute of Technology',
+    location: 'Tumakuru, Karnataka, India',
+    established: 1963,
+    affiliation: 'Visvesvaraya Technological University (VTU)',
+    accreditation: 'NBA, NAAC A+',
+    courses: ['Engineering', 'MBA', 'MCA', 'PhD'],
+    website: 'https://sit.ac.in'
+  })
+})
+
+
 
 serve({
   fetch: app.fetch,
