@@ -10,7 +10,7 @@ env:
   RESOURCE_GROUP: Holmium
   CONTAINER_APPS_ENVIRONMENT: holmium-env
   LOG_ANALYTICS_WORKSPACE: holmium-law
-  AZURE_CONTAINER_REGISTRY: holmium1si16cs060.azurecr.io
+  AZURE_CONTAINER_REGISTRY: holmium1si21is046.azurecr.io
   REPOSITORY_NAME: holmium
   APP_NAME: holmium
   CONTAINER_APP_NAME: holmium
