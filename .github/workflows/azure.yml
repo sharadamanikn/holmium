@@ -7,7 +7,7 @@ on:
 
 env:
   AZURE_REGION: centralindia
-  RESOURCE_GROUP: holmium
+  RESOURCE_GROUP: Holmium
   CONTAINER_APPS_ENVIRONMENT: holmium-env
   LOG_ANALYTICS_WORKSPACE: holmium-law
   AZURE_CONTAINER_REGISTRY: holmium1si21is046.azurecr.io
